@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		84713479288FE4F5002CAC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84713478288FE4F5002CAC4A /* AppDelegate.swift */; };
 		8471347B288FE4F5002CAC4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471347A288FE4F5002CAC4A /* SceneDelegate.swift */; };
-		8471347D288FE4F5002CAC4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471347C288FE4F5002CAC4A /* ViewController.swift */; };
 		84713480288FE4F5002CAC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8471347E288FE4F5002CAC4A /* Main.storyboard */; };
 		84713483288FE4F5002CAC4A /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84713481288FE4F5002CAC4A /* CoreDataDemo.xcdatamodeld */; };
 		84713485288FE4F8002CAC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84713484288FE4F8002CAC4A /* Assets.xcassets */; };
 		84713488288FE4F8002CAC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84713486288FE4F8002CAC4A /* LaunchScreen.storyboard */; };
+		84713490288FE724002CAC4A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471348F288FE724002CAC4A /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84713475288FE4F5002CAC4A /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84713478288FE4F5002CAC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8471347A288FE4F5002CAC4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8471347C288FE4F5002CAC4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8471347F288FE4F5002CAC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84713482288FE4F5002CAC4A /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
 		84713484288FE4F8002CAC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84713487288FE4F8002CAC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84713489288FE4F8002CAC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471348F288FE724002CAC4A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				84713478288FE4F5002CAC4A /* AppDelegate.swift */,
 				8471347A288FE4F5002CAC4A /* SceneDelegate.swift */,
-				8471347C288FE4F5002CAC4A /* ViewController.swift */,
 				8471347E288FE4F5002CAC4A /* Main.storyboard */,
+				8471348F288FE724002CAC4A /* TableViewController.swift */,
 				84713484288FE4F8002CAC4A /* Assets.xcassets */,
 				84713486288FE4F8002CAC4A /* LaunchScreen.storyboard */,
 				84713489288FE4F8002CAC4A /* Info.plist */,
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8471347D288FE4F5002CAC4A /* ViewController.swift in Sources */,
 				84713483288FE4F5002CAC4A /* CoreDataDemo.xcdatamodeld in Sources */,
 				84713479288FE4F5002CAC4A /* AppDelegate.swift in Sources */,
 				8471347B288FE4F5002CAC4A /* SceneDelegate.swift in Sources */,
+				84713490288FE724002CAC4A /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
